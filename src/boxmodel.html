@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aula de Fundamentos - Box Model</title>
+    <link rel="stylesheet" href="./styles/output.css" />
+  </head>–
+  <body>
+    <div class="container m-auto">
+      <h1 class="text-3xl text-center py-10 text-gray-300">Aula Tailwind Fundamentos - Box Model</h1>
+      <!-- Widh, Height e Size-->
+      <div class="border p-6 mt-4">
+        <h3 class="text-gray-500 text-3xl pb-2">Width, Height e Size</h3>
+        <div class="bg-gray-300">Normal</div>
+        <div class="bg-gray-300 w-20 h-24">w-20 h-24</div>
+        <div class="bg-gray-300 size-32">size-32</div>
+      </div>
+      <!-- Widh, Height e Size-->
+
+      <!-- Básico de Cores-->
+      <div class="border p-6 mt-4">
+        <h3 class="text-gray-500 text-3xl pb-2">Básico de Cores</h3>
+        <div class="bg-gray-900 text-gray-200">bg-gray-900 text-gray-200</div>
+        <div class="bg-red-600">bg-red-600</div>
+        <div class="bg-yellow-400">bg-yellow-400</div>
+        <div class="bg-green-300 text-green-950">
+          bg-green-300 text-green-950
+        </div>
+        <div class="bg-cyan-400 text-cyan-950">bg-cyan-400 text-cyan-950</div>
+        <div class="bg-indigo-800 text-white">bg-indigo-800 text-white</div>
+      </div>
+      <!-- Básico de Cores-->
+
+      <!-- Unidades-->
+      <div class="border p-6 mt-4">
+        <h3 class="text-gray-500 text-3xl pb-2">Unidades</h3>
+        <div class="bg-gray-300 w-24">HTML</div>
+        <div class="bg-gray-300 w-1/2">CSS</div>
+      </div>
+      <!-- Unidades-->
+
+      <!-- Padding e Margin-->
+      <div class="border p-6 mt-4">
+        <h3 class="text-gray-500 text-3xl pb-2">Padding e Margin</h3>
+        <div class="grid justify-items-start">
+          <p class="bg-gray-300 p-8">p-8</p>
+          <p class="bg-gray-400 mt-8 px-4 py-8">px-4 py-8</p>
+          <p class="bg-gray-200 pb-12 -mt-4">pb-12 -mt-4</p>
+          <p class="bg-gray-600 m-auto">m-auto (centraliza)</p>
+        </div>
+      </div>
+      <!-- Padding e Margin-->
+
+      <!-- Border -->
+      <div class="border p-6 mt-4">
+        <h3 class="text-gray-500 text-3xl pb-2">Border</h3>
+        <div class="grid justify-items-start">
+          <div class="bg-gray-300 p-4 mb-4 border border-gray-800">
+            border border-gray-800
+          </div>
+          <div class="bg-gray-300 mb-4 p-4 border-x-4 border-gray-800">
+            border-x-4 border-gray-800
+          </div>
+          <div class="bg-gray-300 p-4 mb-4 border-y-4 border-gray-800">
+            border-y-4 border-gray-800
+          </div>
+          <div class="bg-gray-300 p-4 mb-4 border-t-4 border-gray-800">
+            border-l-4 border-gray-800
+          </div>
+          <div class="bg-gray-300 p-4 mb-4 border-r-4 border-gray-800">
+            border-l-4 border-gray-800
+          </div>
+          <div class="bg-gray-300 p-4 mb-4 border-b-4 border-gray-800">
+            border-b-4 border-gray-800
+          </div>
+          <div class="bg-gray-300 p-4 mb-4 border-l-4 border-gray-800">
+            border-b-4 border-gray-800
+          </div>
+        </div>
+      </div>
+      <!-- Border -->
+
+      <!-- Box-sizing -->
+      <div class="border p-6 mt-4">
+        <h3 class="text-gray-500 text-3xl pb-2">Box-sizing</h3>
+        <div class="grid justify-items-start">
+          <div
+            class="bg-gray-300 border-gray-800 mb-4 p-4 border-y-4 h-16 box-border"
+          >
+            p-4 border-y-4 h-16 box-border
+          </div>
+          <div
+            class="bg-gray-300 border-gray-800 mb-4 p-4 border-y-4 h-16 pt-8 box-content"
+          >
+            p-4 border-y-4 h-16 pt-8 box-content
+          </div>
+        </div>
+      </div>
+      <!-- Box-sizing -->
+    </div>
+  </body>
+</html>
